@@ -25,6 +25,13 @@ p {
   width: 100%;
 }
 
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: calc(97% - 60px);
   height: fit-content;
@@ -131,7 +138,7 @@ p {
 @media only screen and (max-width: 600px) {
   .container {
     padding: 18px;
-    width: calc(97% - 36px);
+    width: calc(98% - 36px);
   }
 
   .itemContainer {
@@ -145,7 +152,7 @@ p {
   }
 
   .amount {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .titleContainer svg {

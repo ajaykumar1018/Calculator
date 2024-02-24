@@ -60,6 +60,7 @@ const Calculator = () => {
   }, [billoffsetValue, billAmount]);
 
   return (
+    <div className="wrapper">
     <div className="container">
       <input
         value={billAmount}
@@ -223,6 +224,7 @@ const Calculator = () => {
           amount={data.reservationFees}
         />
       </div>
+    </div>
     </div>
   );
 };
