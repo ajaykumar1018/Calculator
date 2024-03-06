@@ -2,7 +2,7 @@ import { ReactNode, useEffect, useState } from "react";
 import "./Calculator.css";
 
 const ELECTRICITY_UNIT_PRICE = 6.5; // in rupees
-const RESERVATION_FEE_PER_KWH = 165; // per unit in rupees
+const RESERVATION_FEE_PER_KWH = 224.15; // per unit in rupees
 const CO2_SAVED_PER_KWH = 0.8; // per unit in kg
 const NUM_TREES_PLANTED_PER_KG_CO2 = 0.0016; //number of trees
 
